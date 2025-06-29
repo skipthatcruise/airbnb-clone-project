@@ -64,5 +64,58 @@ Lets users leave ratings and written feedback for properties they've booked. It 
 Focuses on structuring the database and queries to allow fast and efficient data retrieval and storage. This ensures that the application remains scalable and performs well even as the user base and data volume grow.
 
 
+API Security
+1. Authentication
+What It Is:
+Verifies user identity through secure login systems (e.g., hashed passwords, multi-factor authentication).
+
+Why It Matters:
+Ensures that only legitimate users can access their accounts and prevents unauthorized access to sensitive user data and actions like booking or payment.
+
+2. Authorization
+What It Is:
+Controls what authenticated users are allowed to do based on their roles (e.g., host vs. guest).
+
+Why It Matters:
+Prevents users from performing actions they shouldn’t have access to — for example, a guest trying to edit or delete another user's property listing.
+
+3. Data Encryption (At Rest and In Transit)
+What It Is:
+Secures sensitive data like passwords and payment details using HTTPS and database-level encryption.
+
+Why It Matters:
+Protects user data from being exposed during transmission or if the database is compromised, boosting trust and compliance with data protection laws (e.g., GDPR).
+
+4. Rate Limiting & Throttling
+What It Is:
+Limits the number of requests a user or bot can make in a given time frame.
+
+Why It Matters:
+Protects the platform from brute-force attacks, abuse, and denial-of-service (DoS) attacks by controlling traffic flow.
+
+5. Input Validation & Sanitization
+What It Is:
+Ensures all inputs from users (e.g., forms, URLs) are clean and expected before processing.
+
+Why It Matters:
+Prevents common vulnerabilities like SQL injection, XSS (Cross-Site Scripting), and CSRF (Cross-Site Request Forgery), safeguarding data integrity and system behavior.
+
+6. Secure Payment Gateway Integration
+What It Is:
+Uses trusted third-party payment processors (e.g., Stripe, Paystack) to handle transactions securely.
+
+Why It Matters:
+Protects financial information and reduces the risk of fraud or mishandling of payment data.
+
+7. Regular Backups & Data Recovery Plans
+What It Is:
+Routine database backups and recovery procedures in case of data loss or breach.
+
+Why It Matters:
+Ensures that critical information (e.g., bookings, payments) is not permanently lost and can be restored quickly.
+
+
+
+
 
 
