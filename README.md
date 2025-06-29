@@ -115,6 +115,35 @@ Why It Matters:
 Ensures that critical information (e.g., bookings, payments) is not permanently lost and can be restored quickly.
 
 
+CI/CD Pipeline
+
+CI/CD stands for Continuous Integration and Continuous Delivery/Deployment. It is an automated process that allows developers to frequently merge their code changes (integration), automatically test them, and then deploy the updated application to production or staging environments.
+
+For the Airbnb clone project, CI/CD pipelines help:
+
+Catch bugs early by running automated tests on every code change.
+
+Ensure code quality and consistency by automating linting, builds, and tests.
+
+Speed up deployment so new features, fixes, or updates reach users faster and more reliably.
+
+Reduce manual errors by automating repetitive deployment steps.
+
+Facilitate collaboration since every code push triggers the pipeline, keeping the whole team aligned.
+
+Tools that could be Used
+
+GitHub Actions: Native to GitHub, it lets you automate workflows like testing and deployment directly from your repository.
+
+Docker: To containerize your application ensuring consistent environments across development, testing, and production.
+
+Jenkins: A popular open-source automation server for complex CI/CD workflows.
+
+Travis CI / CircleCI: Cloud-based CI/CD services that integrate well with GitHub.
+
+Heroku / AWS CodePipeline / Azure DevOps: For deployment automation depending on your hosting choice.
+
+
 
 
 
