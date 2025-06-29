@@ -17,3 +17,30 @@ Technology Stack
 6. Redis: Used for caching and session management.
 7. Docker: Containerization tool for consistent development and deployment environments.
 8. CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+
+Database Design
+1. User ↔ Property:
+One user (host) can have many properties.
+User (1) → (∞) Property
+
+2. User ↔ Booking:
+One user (guest) can make many bookings.
+User (1) → (∞) Booking
+
+3. Property ↔ Booking:
+One property can have many bookings over time.
+Property (1) → (∞) Booking
+
+4. Booking ↔ Payment:
+One booking has one corresponding payment.
+Booking (1) → (1) Payment
+
+5. Property ↔ Review:
+One property can have many reviews.
+Property (1) → (∞) Review
+
+6. User ↔ Review:
+One user (guest) can write many reviews.
+User (1) → (∞) Review
+
+
