@@ -44,3 +44,25 @@ One user (guest) can write many reviews.
 User (1) → (∞) Review
 
 
+Feature Breakdown
+1. User Management
+This feature provides secure user registration, login/logout, and profile management. It ensures that only authenticated users can access and interact with the platform, with personalized features based on their roles (e.g., guest or host).
+
+2. Property Management
+Enables users (typically hosts) to create, update, and manage property listings. This feature ensures that accurate and up-to-date information is available to potential guests for informed decision-making.
+
+3. Booking System
+Allows guests to reserve properties and manage booking details such as dates and booking status. It connects users with available properties and prevents double bookings through date validation and availability checks.
+
+4. Payment Processing
+Facilitates secure online payments for property bookings and stores relevant transaction details. This feature ensures financial transparency, user trust, and smooth revenue flow for property owners.
+
+5. Review System
+Lets users leave ratings and written feedback for properties they've booked. It builds credibility and trust on the platform by helping other users make informed decisions based on past guest experiences.
+
+6. Data Optimization
+Focuses on structuring the database and queries to allow fast and efficient data retrieval and storage. This ensures that the application remains scalable and performs well even as the user base and data volume grow.
+
+
+
+
